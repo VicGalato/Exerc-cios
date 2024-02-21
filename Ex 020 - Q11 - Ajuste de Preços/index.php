@@ -17,7 +17,7 @@
         <label for="preco">Preço do produto(R$):</label>
         <input type="number" name="preco" id="preco" min="0.01" step="0.01" value="<?=$preco?>">
         <label for="reaj">Percentual de reajuste: <strong>(<span id="por">?</span>%</strong>)</label>
-        <input type="range" name="reaj" id="reaj" step="1" min="0" max="200" oninput="mudaValor()">
+        <input type="range" name="reaj" id="reaj" step="1" min="0" max="200" oninput="mudaValor()" value="<?=$reaj?>">
         <input type="submit" value="Reajustar">
 
     </main>
